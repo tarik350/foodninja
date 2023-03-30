@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&family=Nunito&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply relative bg-white rounded overflow-hidden shadow-lg mt-8;
+}
+
+.badge {
+  @apply absolute top-0 ml-2 p-2 mt-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full;
+}
