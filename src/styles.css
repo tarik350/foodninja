@@ -5,9 +5,23 @@
 @tailwind utilities;
 
 .card {
-  @apply relative bg-white rounded overflow-hidden shadow-lg mt-8;
+  @apply hover:shadow-2xl transition ease-in relative  bg-white rounded overflow-hidden  shadow-lg mt-6;
 }
 
 .badge {
   @apply absolute top-0 ml-2 p-2 mt-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full;
+}
+
+.btn {
+  @apply rounded-full py-2 px-3 uppercase font-bold  mx-2 cursor-pointer tracking-wider;
+}
+.hov {
+  @apply hover:text-secondary-100;
+}
+
+.svg {
+  @apply w-6 mx-1;
+}
+.image-scale {
+  @apply hover:scale-150 transition ease-in-out delay-75;
 }

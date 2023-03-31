@@ -7,10 +7,11 @@ module.exports = {
         hsm: "400px",
       },
       colors: {
-        primary: "#bde0fe",
+        primary: "#ff0a54",
         secondary: {
-          100: "#e3d5ca",
-          200: "#2f3e46",
+          100: "#778da9",
+          200: "white",
+          300: "#1b263b",
         },
       },
       fontFamily: {
